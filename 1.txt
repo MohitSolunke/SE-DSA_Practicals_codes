@@ -25,10 +25,6 @@ class hashing
         {
          return (Tel_no%10);
         }
-        
-        
-  
-
         node*create_node(int x)
         {
          node*temp=new node;
@@ -74,9 +70,7 @@ class hashing
             return 0;
          
         }
-        
-        
-        
+   
         void deleteElement(int Tel_no)
         {
          int hash_val=HashFunction(Tel_no);
